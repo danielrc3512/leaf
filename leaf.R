@@ -1,6 +1,6 @@
 
-#datos <- "C:/Users/Danielin/Documents/GitHub/leaf/leaf.csv"
-datos <- "https://github.com/danielrc3512/leaf/blob/master/leaf.csv"
+datos <- "C:/Users/Danielin/Documents/GitHub/leaf/leaf.csv"
+
 misdatos <- read.csv(datos)
 mediaMaximalIndentationDepth <- function ()
 {
@@ -40,7 +40,4 @@ mediaXClase <- function ()
 		} 
 	}
  }
-
-
-
 }
